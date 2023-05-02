@@ -1,0 +1,44 @@
+// fs = lire, ecrire, créer ou supprimer fichier / dossier
+const fs = require("fs");
+// path manipule le chemin de fichiers
+const path = require("path");
+// fonction utilitaire (formater/inspecter des objets, promisifier des fonctions asynchrones)
+const util = require("util");
+
+// Contient le chemin du répertoire à créer
+const logCheminDossier = path.join(__dirname, "logs");
+// path.join pour joindre le nom du fichier au nom du répertoire
+const logCheminFichier = path.join(logCheminDossier, "mikaApp.log");
+
+// on définit le format d'affichage de l'horodatage
+const mesOptions = {
+	weekday: "long",
+	day: "2-digit",
+	month: "long",
+	year: "numeric",
+	hour: "2-digit",
+	minute: "2-digit",
+	second: "2-digit",
+	fractionalSecondDigits: 3,
+	hour12: false,
+	timeZone: "UTC",
+};
+
+function mikaLog(...args) {
+	const horodatage = new Date().toLocaleString("fr-FR", mesOptions).replace(",", ".");
+	let logMessage = `${horodatage} -> ${util.format(...args)}\n`;
+
+	console.log(logMessage);
+
+	fs.appendFile(logCheminFichier, logMessage, { flag: "a" }, (err) => {
+		if (err) {
+			console.error(`Une erreur s'est produite voici le log: ${err}`);
+		}
+	});
+}
+// Créer le dossier s'il n'existe pas
+if (!fs.existsSync(logCheminDossier)) {
+	fs.mkdirSync(logCheminDossier);
+}
+
+module.exports = mikaLog;
