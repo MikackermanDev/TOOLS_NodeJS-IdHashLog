@@ -1,5 +1,10 @@
+// IMPORT de la fonction MikaLog
 const createMikaLog = require("./Tools/mikaLog");
 const mikaLog = createMikaLog(__filename);
+
+// IMPORT du console.log modifié
+const path = require("path");
+const log_file = require("./Tools/appConsoleLog").log_file;
 
 // generateur d'ID basé sur une liste de caractère uniquement
 function getIdAleatoire(longueur) {

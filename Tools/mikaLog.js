@@ -19,26 +19,28 @@ const mesOptions = {
 	hour: "2-digit",
 	minute: "2-digit",
 	second: "2-digit",
-	fractionalSecondDigits: 3,
 	hour12: false,
-	timeZone: "UTC",
+	timeZone: "Europe/Paris",
 };
 
 // fonction pour le log personnalisé
 function createMikaLog(fichierOrigine) {
 	return function (...args) {
-		// Extraction du chemin relatif du fichier d'origine
+		// Extraction du chemin relatif du fichier d'origine grace à path.relative
 		const cheminRelatif = path.relative(__dirname, fichierOrigine);
 		// Création de l'horodatage
-		const horodatage = new Date()
-			.toLocaleString("fr-FR", mesOptions)
-			.replace(",", ".");
+		const date = new Date();
+		const horodatage =
+			date.toLocaleString("fr-FR", mesOptions).replace(",", ".") +
+			"." +
+			date.getMilliseconds().toString().padStart(3, "0");
 		// Mise en forme du message de journalisation
 		let logMessage = `${horodatage} -> issu de ${cheminRelatif} -> ${util.format(
 			...args
 		)}\n`;
 		// Affichage du message dans la console
-		console.log(logMessage);
+		// ATTENTION PEU FAIRE CONFLIT AVEC CONSOLE.LOG
+		// console.log(logMessage);
 		// Ajout du message au fichier de log
 		fs.appendFile(logCheminFichier, logMessage, { flag: "a" }, (err) => {
 			if (err) {
