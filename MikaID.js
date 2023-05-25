@@ -1,4 +1,5 @@
-const mikaLog = require("./Tools/mikaLog");
+const createMikaLog = require("./Tools/mikaLog");
+const mikaLog = createMikaLog(__filename);
 
 // generateur d'ID basé sur une liste de caractère uniquement
 function getIdAleatoire(longueur) {

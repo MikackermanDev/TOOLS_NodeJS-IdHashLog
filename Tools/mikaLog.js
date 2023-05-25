@@ -24,21 +24,37 @@ const mesOptions = {
 	timeZone: "UTC",
 };
 
-function mikaLog(...args) {
-	const horodatage = new Date().toLocaleString("fr-FR", mesOptions).replace(",", ".");
-	let logMessage = `${horodatage} -> ${util.format(...args)}\n`;
-
-	console.log(logMessage);
-
-	fs.appendFile(logCheminFichier, logMessage, { flag: "a" }, (err) => {
-		if (err) {
-			console.error(`Une erreur s'est produite voici le log: ${err}`);
-		}
-	});
+// fonction pour le log personnalisé
+function createMikaLog(fichierOrigine) {
+	return function (...args) {
+		// Extraction du chemin relatif du fichier d'origine
+		const cheminRelatif = path.relative(__dirname, fichierOrigine);
+		// Création de l'horodatage
+		const horodatage = new Date()
+			.toLocaleString("fr-FR", mesOptions)
+			.replace(",", ".");
+		// Mise en forme du message de journalisation
+		let logMessage = `${horodatage} -> issu de ${cheminRelatif} -> ${util.format(
+			...args
+		)}\n`;
+		// Affichage du message dans la console
+		console.log(logMessage);
+		// Ajout du message au fichier de log
+		fs.appendFile(logCheminFichier, logMessage, { flag: "a" }, (err) => {
+			if (err) {
+				console.error(`Une erreur s'est produite voici le log: ${err}`);
+			}
+		});
+	};
 }
+
 // Créer le dossier s'il n'existe pas
 if (!fs.existsSync(logCheminDossier)) {
 	fs.mkdirSync(logCheminDossier);
 }
 
-module.exports = mikaLog;
+module.exports = createMikaLog;
+
+// Dans le fichier d'execution :
+// const createMikaLog = require("./Tools/mikaLog");
+// const mikaLog = createMikaLog(__filename);
