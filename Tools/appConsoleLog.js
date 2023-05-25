@@ -25,4 +25,4 @@ module.exports.log_file = log_file;
 // log_file.write(fileName + " -> ");
 
 // const filePath = path.join(__filename); // obtention du chemin complet +  , ".js" permet de supprimer l'extension dans le log
-// log_file.write(filePath + " -> "); // utilisation de la fonction
+// log_file.write(filePath + " -> ");
