@@ -1,7 +1,6 @@
 {
   "name": "tools_nodejs-idhashlog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MikackermanDev/TOOLS_NodeJS-IdHashLog/issues"
   },
-  "homepage": "https://github.com/MikackermanDev/TOOLS_NodeJS-IdHashLog#readme"
+  "homepage": "https://github.com/MikackermanDev/TOOLS_NodeJS-IdHashLog#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
