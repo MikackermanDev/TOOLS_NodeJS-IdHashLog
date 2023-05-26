@@ -15,9 +15,9 @@ const logCheminFichier = path.join(logCheminDossier, "mikaApp.log");
 
 // on définit le format d'affichage de l'horodatage
 const mesOptions = {
-	weekday: "long",
+	weekday: "short",
 	day: "2-digit",
-	month: "long",
+	month: "short",
 	year: "numeric",
 	hour: "2-digit",
 	minute: "2-digit",
@@ -36,7 +36,7 @@ function createMikaLog(fichierOrigine) {
 		// si NodeJS avec date-fns
 		// const horodatage = format(date, mesOptions);
 		const horodatage =
-			date.toLocaleString("fr-FR", mesOptions).replace(",", ".") +
+			date.toLocaleString("fr-FR", mesOptions).replace(",", " à") +
 			"." +
 			date.getMilliseconds().toString().padStart(3, "0");
 		// Mise en forme du message de journalisation
