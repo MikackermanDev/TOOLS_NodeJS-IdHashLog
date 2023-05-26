@@ -6,7 +6,7 @@ const path = require("path");
 const util = require("util");
 
 // Contient le chemin du répertoire à créer
-const logCheminDossier = path.join(__dirname, "logs");
+const logCheminDossier = path.join(__dirname, "..", "Logs");
 // path.join pour joindre le nom du fichier au nom du répertoire
 const logCheminFichier = path.join(logCheminDossier, "mikaApp.log");
 
