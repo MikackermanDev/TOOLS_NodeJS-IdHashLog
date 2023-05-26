@@ -12,15 +12,17 @@ console.log = function (d) {
 		date.toLocaleString("fr-FR") +
 		"." +
 		date.getMilliseconds().toString().padStart(3, "0");
-	log_file.write(horodatage + " -> " + util.format(d) + "\n");
-	log_stdout.write(horodatage + " -> " + util.format(d) + "\n");
+	log_file.write(horodatage + " \t -> " + util.format(d) + "\n");
+	log_stdout.write(horodatage + " \t -> " + util.format(d) + "\n");
 };
 
 module.exports.log_file = log_file;
 
 // Dans le fichier d'execution :
+
+// IMPORT du console.log modifié
 // const path = require("path");
-// const log_file = require("./Tools/appConsoleLog").log_file;
+// const log_file = require("./Tools/ConsoleLogCustom").log_file;
 // const fileName = path.basename(__filename); // obtention du nom du fichier
 // log_file.write(fileName + " -> ");
 

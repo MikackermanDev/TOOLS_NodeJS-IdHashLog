@@ -10,6 +10,9 @@ const logCheminDossier = path.join(__dirname, "logs");
 // path.join pour joindre le nom du fichier au nom du répertoire
 const logCheminFichier = path.join(logCheminDossier, "mikaApp.log");
 
+// on définit le format d'affichage de l'horodatage pour NodeJS avec date-fns
+// const mesOptions = "eee dd MMM yyyy HH:mm:ss.SSS";
+
 // on définit le format d'affichage de l'horodatage
 const mesOptions = {
 	weekday: "long",
@@ -30,12 +33,14 @@ function createMikaLog(fichierOrigine) {
 		const cheminRelatif = path.relative(__dirname, fichierOrigine);
 		// Création de l'horodatage
 		const date = new Date();
+		// si NodeJS avec date-fns
+		// const horodatage = format(date, mesOptions);
 		const horodatage =
 			date.toLocaleString("fr-FR", mesOptions).replace(",", ".") +
 			"." +
 			date.getMilliseconds().toString().padStart(3, "0");
 		// Mise en forme du message de journalisation
-		let logMessage = `${horodatage} -> issu de ${cheminRelatif} -> ${util.format(
+		let logMessage = `${horodatage} \t -> issu de ${cheminRelatif} \t -> ${util.format(
 			...args
 		)}\n`;
 		// Affichage du message dans la console
@@ -58,5 +63,6 @@ if (!fs.existsSync(logCheminDossier)) {
 module.exports = createMikaLog;
 
 // Dans le fichier d'execution :
+// IMPORT de la fonction mikaLog
 // const createMikaLog = require("./Tools/mikaLog");
 // const mikaLog = createMikaLog(__filename);
