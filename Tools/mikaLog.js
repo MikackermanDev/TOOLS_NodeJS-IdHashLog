@@ -6,7 +6,7 @@ const path = require("path");
 const util = require("util");
 
 // Contient le chemin du répertoire à créer
-const logCheminDossier = path.join(__dirname, "..", "Logs");
+const logCheminDossier = path.join(__dirname, "..", "logs");
 console.log(logCheminDossier);
 
 // Créer le dossier s'il n'existe pas

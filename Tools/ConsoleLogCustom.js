@@ -3,7 +3,7 @@ const fs = require("fs");
 const util = require("util");
 
 // flags "w" pour écraser, flags "a" pour ajouter
-let log_file = fs.createWriteStream("./Logs/console.log", { flags: "a" });
+let log_file = fs.createWriteStream("./logs/console.log", { flags: "a" });
 let log_stdout = process.stdout;
 
 console.log = function (d) {
