@@ -16,3 +16,7 @@ mikaLog(mikaId);
 console.log(mikaId);
 mikaLog(mikaMDP(10));
 console.log(mikaMDP(10));
+
+const date = new Date();
+
+console.log(date);

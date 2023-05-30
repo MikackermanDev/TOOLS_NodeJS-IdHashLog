@@ -2,12 +2,17 @@
 const fs = require("fs");
 const util = require("util");
 
+const date = new Date();
+const isoDate = date.toISOString();
+const logDate = isoDate.slice(0, 10);
+
 // flags "w" pour écraser, flags "a" pour ajouter
-let log_file = fs.createWriteStream("./logs/console.log", { flags: "a" });
+let log_file = fs.createWriteStream("./logs/consoleLog-" + logDate + ".log", {
+	flags: "a",
+});
 let log_stdout = process.stdout;
 
 console.log = function (d) {
-	let date = new Date();
 	let horodatage =
 		date.toLocaleString("fr-FR") +
 		"." +
