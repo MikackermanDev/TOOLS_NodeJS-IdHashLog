@@ -3,3 +3,9 @@
 31/05/23 19:57:57.037 -> ..\index.js 	 -> jwtB64 : ejgaSmVbNnKZLCLrF9j3zu9zLXp+RTcUJl5yZfG4z98NV7GKWyCiSSRq7th5FyuqOjkj+e2YdCRN+rlkSTD1J6KGSnpDFhf6KSgh8nzRmVkC6/l/xsVk7F90q8mQgCGV
 31/05/23 19:57:57.037 -> ..\index.js 	 -> jwtHex : f9bc54ec83902963a6a421e3e358d31a5e2cb80bf41580d0538e0b1240a82221561aa97624e718d6003993dc55c6038c417568652637e9bed614358efd363f9b
 31/05/23 19:57:57.037 -> ..\index.js 	 -> xor128 : vgYD4Q8jii3ZgZGCxNDuXHMpnnNImAOIV5IUtOLyEYEesCNw3CUuDy7iOytJFSk1h9b5KyZQ2mFx3EpoKVZ1ovP4PHeRVFa6jvPhh41s7q2ofLhisXj1IBaKa2wkBa6Q
+31/05/23 19:59:38.507 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+31/05/23 19:59:38.507 -> ..\index.js 	 -> aleaID : 55559-78509-DlnnC-Ao4Qw-3fkdb
+31/05/23 19:59:38.507 -> ..\index.js 	 -> mikMDP : y;EHy\Y6D;
+31/05/23 19:59:38.507 -> ..\index.js 	 -> jwtHex : fb8277f41d5118e9961bd7b6b1bbc751abc4b82b60c6042e53d428fde769ef95aad23bfdc51512b298450953a6cfd13088c9d761b27f38bdd4ba86aaa69368a0
+31/05/23 19:59:38.507 -> ..\index.js 	 -> xor128 : vhypc9gxoxiifnWMe2BmsVfQXfE6VprRcR60rwlxyiHpNQtv3QyIo8Hkgmg8DPW5ldobniNJXJicScOQnfRQyIU9N8W7mehaPLjlbm7z3Xj1l0swot8ucA0DIA8m4vIJ
+31/05/23 19:59:38.507 -> ..\index.js 	 -> jwtB64 : OHCMKSh4BPcU2Qzzddb9qPWncvWUFw7gt3+wcX/mvs75xnoH8gEx1gh+TYIVrOGAyHOrjvDDUt7X4Z9Dk+lBTmW/CDHo85KTAWObvYCIFehr0Sw3mGr1Gh60DurWibX5

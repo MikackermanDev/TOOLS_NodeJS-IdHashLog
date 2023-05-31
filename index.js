@@ -13,11 +13,17 @@ const mikaId = require("./tools/mikaID");
 const mikaMDP = require("./tools/mikaMDP");
 const { jwtHex, jwtB64, mikaXor } = require("./tools/mikaSecret");
 
+let monObjet = {
+	propriete1: "valeur1",
+	propriete2: "valeur2",
+};
+let err = new Error("erreur");
+
 logResults();
 
 function logResults() {
-	let err = new Error("erreur");
 	mikaLog(err);
+	mikaLog(monObjet);
 	mikaLog("aleaID : " + mikaId);
 	mikaLog("mikMDP : " + mikaMDP(10));
 	mikaLog("jwtHex : " + jwtHex(128));
