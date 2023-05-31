@@ -12,7 +12,7 @@ function jwtB64(longueur) {
 }
 
 // 2°) fonction non dépendant du module crypto utilisant l'algorythme de chiffrage xorshift128plus
-// bonne entropie (prévisibilité) mais registre à décalage à rétroaction linéaire
+// bonne entropie (= mauvaise prévisibilité) mais registre à décalage à rétroaction linéaire
 
 function mikaXor(longueur) {
 	let seed = [BigInt(Date.now()), BigInt(Math.floor(Math.random() * 0xffffffff))];

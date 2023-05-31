@@ -8,8 +8,14 @@ function getNumeroAleatoire(min, max) {
 
 function mikaMDP(longueur) {
 	let myPassword = "";
+	let lastChar = "";
 	for (let i = 0; i < longueur; i++) {
-		myPassword += String.fromCharCode(getNumeroAleatoire());
+		let newChar = String.fromCharCode(getNumeroAleatoire());
+		while (newChar === lastChar) {
+			newChar = String.fromCharCode(getNumeroAleatoire());
+		}
+		myPassword += newChar;
+		lastChar = newChar;
 	}
 	return myPassword;
 }
@@ -20,14 +26,15 @@ module.exports = mikaMDP;
 
 // function mikaMDP(longueur) {
 // 	let myPassword = "";
+// 	let lastChar = "";
 // 	let caracteresExclus = ["@", "#", "$"]; // liste des caractères à exclure
 // 	for (let i = 0; i < longueur; i++) {
-// 		let caractere = String.fromCharCode(getNumeroAleatoire());
-// 		if (caracteresExclus.includes(caractere)) {
-// 			// vérifier si le caractère est dans la liste des caractères à exclure
-// 			continue; // passer à l'itération suivante sans ajouter le caractère au mot de passe
+// 		let newChar = String.fromCharCode(getNumeroAleatoire());
+// 		while (newChar === lastChar || caracteresExclus.includes(newChar)) {
+// 			newChar = String.fromCharCode(getNumeroAleatoire());
 // 		}
-// 		myPassword += caractere; // ajouter le caractère au mot de passe
+// 		myPassword += newChar;
+// 		lastChar = newChar;
 // 	}
 // 	return myPassword;
 // }
