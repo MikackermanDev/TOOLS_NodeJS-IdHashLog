@@ -10,13 +10,11 @@ const log_file = require("./tools/consoleLogCustom").log_file;
 const mikaId = require("./tools/mikaID");
 
 // IMPORT du générateur de mdp
-const mikaMDP = require("./tools/MikaMDP");
+const mikaMDP = require("./tools/mikaMDP");
+const { jwtHex, jwtB64, mikaXor } = require("./tools/mikaSecret");
 
-mikaLog(mikaId);
-console.log(mikaId);
-mikaLog(mikaMDP(10));
-console.log(mikaMDP(10));
-
-const date = new Date();
-
-console.log(date);
+mikaLog("aleaID : " + mikaId);
+mikaLog("mikMDP : " + mikaMDP(10));
+mikaLog("jwtHex : " + jwtHex(128));
+mikaLog("jwtB64 : " + jwtB64(128));
+mikaLog("xor128 : " + mikaXor(128));

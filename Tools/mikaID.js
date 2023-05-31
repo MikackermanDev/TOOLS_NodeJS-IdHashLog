@@ -3,10 +3,8 @@ function getIdAleatoire(longueur) {
 	let resultat = "";
 	const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	const charactersLength = characters.length;
-	let compteur = 0;
-	while (compteur < longueur) {
+	for (let i = 0; i < longueur; i++) {
 		resultat += characters.charAt(Math.floor(Math.random() * charactersLength));
-		compteur += 1;
 	}
 	return resultat;
 }
