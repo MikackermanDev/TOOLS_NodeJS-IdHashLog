@@ -5,10 +5,6 @@ const util = require("util");
 const logCheminDossier = path.join(__dirname, "..", "logs");
 console.log(logCheminDossier);
 
-if (!fs.existsSync(logCheminDossier)) {
-	fs.mkdirSync(logCheminDossier);
-}
-
 const mesOptions = {
 	// weekday: "short",
 	day: "2-digit",
@@ -20,10 +16,15 @@ const mesOptions = {
 	hour12: false,
 	timeZone: "Europe/Paris",
 };
-
 const date = new Date();
 const isoDate = date.toISOString();
 const logDate = isoDate.slice(0, 10);
+
+if (!fs.existsSync(logCheminDossier)) {
+	fs.mkdirSync(logCheminDossier);
+	// Créer des fichiers de journalisation vides pour corriger l'absence du dossier LOGS
+	fs.writeFileSync(path.join(logCheminDossier, "mikaApp-" + logDate + ".log"), "");
+}
 
 function createMikaLog(fichierOrigine) {
 	return function (arg) {

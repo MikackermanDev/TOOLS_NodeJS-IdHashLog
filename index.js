@@ -16,6 +16,8 @@ const { jwtHex, jwtB64, mikaXor } = require("./tools/mikaSecret");
 logResults();
 
 function logResults() {
+	let err = new Error("erreur");
+	mikaLog(err);
 	mikaLog("aleaID : " + mikaId);
 	mikaLog("mikMDP : " + mikaMDP(10));
 	mikaLog("jwtHex : " + jwtHex(128));
