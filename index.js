@@ -13,8 +13,12 @@ const mikaId = require("./tools/mikaID");
 const mikaMDP = require("./tools/mikaMDP");
 const { jwtHex, jwtB64, mikaXor } = require("./tools/mikaSecret");
 
-mikaLog("aleaID : " + mikaId);
-mikaLog("mikMDP : " + mikaMDP(10));
-mikaLog("jwtHex : " + jwtHex(128));
-mikaLog("jwtB64 : " + jwtB64(128));
-mikaLog("xor128 : " + mikaXor(128));
+logResults();
+
+function logResults() {
+	mikaLog("aleaID : " + mikaId);
+	mikaLog("mikMDP : " + mikaMDP(10));
+	mikaLog("jwtHex : " + jwtHex(128));
+	mikaLog("jwtB64 : " + jwtB64(128));
+	mikaLog("xor128 : " + mikaXor(128));
+}

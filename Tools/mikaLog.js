@@ -28,8 +28,10 @@ const logDate = isoDate.slice(0, 10);
 function createMikaLog(fichierOrigine) {
 	return function (arg) {
 		const cheminRelatif = path.relative(__dirname, fichierOrigine);
-		const horodatage = date.toLocaleString("fr-FR", mesOptions).replace(",", " à");
-		+"." + date.getMilliseconds().toString().padStart(3, "0");
+		const horodatage =
+			date.toLocaleString("fr-FR", mesOptions).replace(",", " à") +
+			"." +
+			date.getMilliseconds().toString().padStart(3, "0");
 		let logMessage = `${horodatage} -> ${cheminRelatif} \t -> ${util.format(arg)}\n`;
 		let logFileName;
 		if (arg instanceof Error) {
