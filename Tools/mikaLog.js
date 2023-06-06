@@ -26,6 +26,28 @@ if (!fs.existsSync(logCheminDossier)) {
 	fs.writeFileSync(path.join(logCheminDossier, "mikaApp-" + logDate + ".log"), "");
 }
 
+function deleteOldLog() {
+	fs.readdir(logCheminDossier, (err, files) => {
+		if (err) throw err;
+		files
+			.filter((file) => file.endsWith(".log"))
+			.forEach((file) => {
+				console.log(files);
+				const fileDate = new Date(file.slice(-14, -4));
+				const currentDate = new Date();
+				const timeDiff = Math.abs(currentDate.getTime() - fileDate.getTime());
+				const dayDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+				if (dayDiff > 15) {
+					const filePath = path.join(logCheminDossier, file);
+					fs.unlink(filePath, (err) => {
+						if (err) throw err;
+						console.log(`Deleted file: ${file}`);
+					});
+				}
+			});
+	});
+}
+
 function createMikaLog(fichierOrigine) {
 	return function (arg) {
 		const cheminRelatif = path.relative(__dirname, fichierOrigine);
@@ -53,7 +75,7 @@ function createMikaLog(fichierOrigine) {
 	};
 }
 
-module.exports = createMikaLog;
+module.exports = { createMikaLog, deleteOldLog };
 
 // const createMikaLog = require("./Tools/mikaLog");
 // const mikaLog = createMikaLog(__filename);

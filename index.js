@@ -1,6 +1,7 @@
 // IMPORT de la fonction mikaLog
-const createMikaLog = require("./tools/mikaLog");
+const { createMikaLog, deleteOldLog } = require("./tools/mikaLog");
 const mikaLog = createMikaLog(__filename);
+deleteOldLog();
 
 // IMPORT du console.log modifié
 const path = require("path");
