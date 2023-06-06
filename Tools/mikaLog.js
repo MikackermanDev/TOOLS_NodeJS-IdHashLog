@@ -26,13 +26,13 @@ if (!fs.existsSync(logCheminDossier)) {
 	fs.writeFileSync(path.join(logCheminDossier, "mikaApp-" + logDate + ".log"), "");
 }
 
-function deleteOldLog() {
+function deleteOldLog(mikaLog) {
 	fs.readdir(logCheminDossier, (err, files) => {
 		if (err) throw err;
+		//mikaLog(files);
 		files
 			.filter((file) => file.endsWith(".log"))
 			.forEach((file) => {
-				console.log(files);
 				const fileDate = new Date(file.slice(-14, -4));
 				const currentDate = new Date();
 				const timeDiff = Math.abs(currentDate.getTime() - fileDate.getTime());
@@ -41,7 +41,7 @@ function deleteOldLog() {
 					const filePath = path.join(logCheminDossier, file);
 					fs.unlink(filePath, (err) => {
 						if (err) throw err;
-						console.log(`Deleted file: ${file}`);
+						mikaLog(`fichier supprimé : ${file}`);
 					});
 				}
 			});
