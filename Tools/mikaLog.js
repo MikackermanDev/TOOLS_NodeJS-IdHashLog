@@ -77,5 +77,7 @@ function createMikaLog(fichierOrigine) {
 
 module.exports = { createMikaLog, deleteOldLog };
 
-// const createMikaLog = require("./Tools/mikaLog");
+// IMPORT de la fonction mikaLog
+// const { createMikaLog, deleteOldLog } = require("./tools/mikaLog");
 // const mikaLog = createMikaLog(__filename);
+// deleteOldLog(mikaLog);
