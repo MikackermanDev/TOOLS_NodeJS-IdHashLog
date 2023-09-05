@@ -50,11 +50,12 @@ function deleteOldLog(mikaLog) {
 
 function createMikaLog(fichierOrigine) {
 	return function (arg) {
+		const currentDate = new Date();
 		const cheminRelatif = path.relative(__dirname, fichierOrigine);
 		const horodatage =
-			date.toLocaleString("fr-FR", mesOptions).replace(",", " à") +
+			currentDate.toLocaleString("fr-FR", mesOptions).replace(",", " à") +
 			"." +
-			date.getMilliseconds().toString().padStart(3, "0");
+			currentDate.getMilliseconds().toString().padStart(3, "0");
 		let logMessage = `${horodatage} -> ${cheminRelatif} \t -> ${util.format(arg)}\n`;
 		let logFileName;
 		if (arg instanceof Error) {
@@ -62,6 +63,7 @@ function createMikaLog(fichierOrigine) {
 		} else {
 			logFileName = "mikaApp-" + logDate + ".log";
 		}
+		console.log(logMessage);
 		fs.appendFile(
 			path.join(logCheminDossier, logFileName),
 			logMessage,
