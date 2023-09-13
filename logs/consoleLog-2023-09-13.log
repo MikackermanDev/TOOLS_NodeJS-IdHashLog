@@ -1,0 +1,33 @@
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.439 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:21:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.455 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.456 -> ..\index.js 	 -> aleaID : 46428-38438-ZwauH-SNYOp-1wWFl
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.456 -> ..\index.js 	 -> mikMDP : d>,uEmR4t%
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.457 -> ..\index.js 	 -> jwtHex : e9cd0462ff2296810c92886ed52429bd06a4ae997c10a578f1af816b64ec9d66a2980228d3f38910b38e497b6143e1400c756c096502fd1bc0e58fc858605bc8
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.457 -> ..\index.js 	 -> jwtB64 : ne9mm1Y/cz5ULb4GxO8UWALK+ke9niwbzS4Up52IKzMIt0YsqWvT4OSYkU8VVkmrk6B/tNHIw40q4UitOeJfQHMBaaepQb4k6bq2QI4a+JbBXHxAEzO2H2gJ6kqRIPU6
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.458 -> ..\index.js 	 -> xor128 : vhZYLQKpAtolPLH05BBnF5bdkQUOHflkYwTIh7B3DIGL7u6p8fZeuoKi9hlNnkeWTJ1oVIl5HjJD0GhUHxixM4HDsVuOXa7aq2EhA9ABpDpJfy31RCmwfAP4usO7zLwh
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.461 -> ..\index.js 	 -> fichier supprimé : consoleLog-2023-07-25.log
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.461 -> ..\index.js 	 -> fichier supprimé : consoleLog-2023-08-01.log
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.462 -> ..\index.js 	 -> fichier supprimé : mikaApp-2023-07-25.log
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.462 -> ..\index.js 	 -> fichier supprimé : mikaApp-2023-08-01.log
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.463 -> ..\index.js 	 -> fichier supprimé : mikaErr-2023-07-25.log
+
+14/09/2023 00:07:18.437 	 -> 14/09/23 00:07:18.463 -> ..\index.js 	 -> fichier supprimé : mikaErr-2023-08-01.log
+

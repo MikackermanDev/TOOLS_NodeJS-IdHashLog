@@ -1,4 +1,4 @@
-01/08/23 16:24:39.158 -> ..\index.js 	 -> Error: erreur
+14/09/23 00:07:18.439 -> ..\index.js 	 -> Error: erreur
     at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:21:11)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
