@@ -14,6 +14,9 @@ const mikaId = require("./tools/mikaID");
 const mikaMDP = require("./tools/mikaMDP");
 const { jwtHex, jwtB64, mikaXor } = require("./tools/mikaSecret");
 
+// IMPORT de la fonction mikaHash
+const mikaHash = require("./tools/mikaHash");
+
 let monObjet = {
 	propriete1: "valeur1",
 	propriete2: "valeur2",
@@ -30,4 +33,5 @@ function logResults() {
 	mikaLog("jwtHex : " + jwtHex(128));
 	mikaLog("jwtB64 : " + jwtB64(128));
 	mikaLog("xor128 : " + mikaXor(128));
+	mikaLog("mikaHash : " + mikaHash(32, 10));
 }

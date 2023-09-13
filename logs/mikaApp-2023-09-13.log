@@ -10,3 +10,66 @@
 14/09/23 00:07:18.463 -> ..\index.js 	 -> fichier supprimé : mikaErr-2023-07-25.log
 14/09/23 00:07:18.462 -> ..\index.js 	 -> fichier supprimé : mikaApp-2023-08-01.log
 14/09/23 00:07:18.463 -> ..\index.js 	 -> fichier supprimé : mikaErr-2023-08-01.log
+14/09/23 01:07:41.591 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:07:41.592 -> ..\index.js 	 -> aleaID : 46464-61577-IJxJy-yh887-yf0Uf
+14/09/23 01:07:41.592 -> ..\index.js 	 -> mikMDP : 5DLKz[ZB<D
+14/09/23 01:07:41.593 -> ..\index.js 	 -> jwtB64 : 4U1ubNQhynyhpzniVft8knZKO3m+ulCuZWe7kug7uNgLSHioPNqGojCXHW2QvI5X82ssFrnEpDtKVwNM8CCFIl/j0iHwsUgqp9sZkXAvsvgrLHRq57uM8tkKmvE0HGmQ
+14/09/23 01:07:41.593 -> ..\index.js 	 -> jwtHex : 83152dcbfea305a154723bed59ed04101256fd0041160cc0cbd07046092111e5b2d40c3d4c7ff8463f6f7fab47b9be45df9c79b2c9c315b504be5b4cffe86c38
+14/09/23 01:07:41.594 -> ..\index.js 	 -> xor128 : vhuqmbckKrtBfaIlKz4YCIbztE3smwnBjv41SiKykBlJGDkEH1ZiZy4UVtUsxjps2akbeFy5gNrXj8CFt0gSyDvldZJlNdSulhwbvnGmjJXR04pWiVT3cIBIQLbAVZs0
+14/09/23 01:07:41.594 -> ..\index.js 	 -> mikaHash : vhurm6lqjLTuPSHnvhuuXWIIsezvBUKa
+14/09/23 01:07:56.943 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:07:56.944 -> ..\index.js 	 -> aleaID : 46464-76927-PtTRC-X0KUW-DzY0N
+14/09/23 01:07:56.946 -> ..\index.js 	 -> jwtHex : fcc2d914eebbcb4772363ff4943028fdb163ce71b90a76b96cf7d1ba884e3ab9aac6e723ae44e3e8527bff365968cb018bd8208a14737a79fcbf792cbaf27f0e
+14/09/23 01:07:56.945 -> ..\index.js 	 -> mikMDP : l4}ak3Xv%d
+14/09/23 01:07:56.946 -> ..\index.js 	 -> jwtB64 : fuoQ6kS5cmJDENYtIWm+/0DStLSXNeZtuDHzysYF9kLjkPGzktDfge7B3lq8kGofk/NONQDQc90FSTeHERm1RizCbeHjOYMwSZx8o/fKpd9ds4nBX8h4MgtBmkqWWSd0
+14/09/23 01:07:56.947 -> ..\index.js 	 -> xor128 : vhUymm27ohiA98olEHazOjNPRZmQf2cmcI3JvJR8UrSMWiCcnlQhQXwUOrUDOnTrbwVPebRBshiej0PJauzZ5Y9WZCUXV9V3adNJnxptGLOh7DDeCvQpypsRnthg7tYP
+14/09/23 01:07:56.948 -> ..\index.js 	 -> mikaHash : vhUC2w1bzkAZhNpEvhUamw0qMI0LGWNW
+14/09/23 01:08:00.994 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:08:00.995 -> ..\index.js 	 -> aleaID : 46464-80980-GuerT-dTaOu-1BFie
+14/09/23 01:08:00.996 -> ..\index.js 	 -> jwtHex : f96947ac6c3fa525350462af40f73b81fdbb18343b1f9db8c4de220a8516a59f10e47e1b83086da5015ad12fe7541992287995b9eef46189964214e720d507a7
+14/09/23 01:08:00.995 -> ..\index.js 	 -> mikMDP : A3Q!JjVg{@
+14/09/23 01:08:00.996 -> ..\index.js 	 -> jwtB64 : tl13d+tar6Z0bRySguk+4crHhFNbw2KPJHMwjI3sS4uvoTMI4CAzONKvBOQYVTkVLFMJnMytfwGCuUcwKJr6vZ3uvZV9dQeL2i5RhGdWUBvklwGjEnB04b/IvOx+8FL2
+14/09/23 01:08:00.997 -> ..\index.js 	 -> xor128 : vhTSjYG6H8Si7kqKRf3YCz4OvnpyxHgPgnHzpKAcpRFENLj3qgXuCXKzib6vdk6tg8GPFaZDsYAvNwHnGU9mKbcEzU4HEATxd2wwpaDQh4Ghcw54k9LqgrqskBpIyIsg
+14/09/23 01:08:00.998 -> ..\index.js 	 -> mikaHash : vhTwaV3yGsHJydG6vhTMZMmJ4dlErPxF
+14/09/23 01:08:05.808 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:08:05.809 -> ..\index.js 	 -> aleaID : 46464-85791-S14ew-mNNPR-PTVSe
+14/09/23 01:08:05.810 -> ..\index.js 	 -> mikMDP : 5t*9oLTYUL
+14/09/23 01:08:05.811 -> ..\index.js 	 -> jwtB64 : 6PPS0bMJiW0LYOO4Blf91YgsxTmLgSX+mFMuxyyeFa2KlTglZ05IAsIyT2AMrn5eClfPu7ed386wJWoO4atVrhuudLMH3VwsRfp5IdFyyiQEz6SMxmQFA1dgueWRf0Dj
+14/09/23 01:08:05.810 -> ..\index.js 	 -> jwtHex : 977721d7a9642a46d916dfcff5a8b81114e9f9aff5b5527ab7dad9a73e84e5e183bb169995e6cf4a5974a33c24b7b523abf3328063cf0b7a7e10ef380bdcca5a
+14/09/23 01:08:05.813 -> ..\index.js 	 -> mikaHash : vhVrWfWbDVaccwQ1fEr8KwzwkZ9dXPZ0vhVixkatFGVo00kkJ7jgVvoILMgaIUuT
+14/09/23 01:08:05.811 -> ..\index.js 	 -> xor128 : vhWgt2uv6mqkuLiAmru92CLuLQOJOqdmcWenipM3kzJvMZFl43Ne3DzHaxahRUr3FdkYu3jFpcV1P9GU5cPXdaM1SYKHrQ4mJ8LMP2n2IQQiluLPZ8aFQZhyArQ8F9MY
+14/09/23 01:08:10.175 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:08:10.176 -> ..\index.js 	 -> mikMDP : aWVA7pkUhC
+14/09/23 01:08:10.177 -> ..\index.js 	 -> jwtHex : 9737411aec8ae817b5dc2057fa89484392b692463431ebe6ce08a42d472658eb0b85e76d01641c2f1127d758813673745e78674e06ab8ce66a767346d1172263
+14/09/23 01:08:10.178 -> ..\index.js 	 -> mikaHash : vhUMlYAGHhf5oa2JhFC1oq44BNd3Q3MyvhUaYwPEokjsRCYMBxxSamno2X05qYmP
+14/09/23 01:08:10.176 -> ..\index.js 	 -> aleaID : 46464-90161-8ib6x-udcEr-iF8zd
+14/09/23 01:08:10.178 -> ..\index.js 	 -> xor128 : vhUaZMBfXZS2M8qFZ7mxk8JgPPKmE5xMm1gKbF0EFY1lSZzhrQWXLiKmkIiggskuzSPS3Cpor48a3NlsLg3kxMCrAPdBbtEm7mIK3EmgSFlAxMobj2YNFVzzM2BDkbb6
+14/09/23 01:08:10.177 -> ..\index.js 	 -> jwtB64 : 8BIkEHXX1IeZmTVUbpR7oFwOuv+0fwzkSBITV//ASzzxUMDxDYTG8hnIwkI5k8mAYcvsE4M3GQCRz8v1GWRIGl2GmKs+9v2PyAewp3oXX9bewlMO+KL5p9mX1+emHqOE
+14/09/23 01:08:16.152 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:08:16.153 -> ..\index.js 	 -> aleaID : 46464-96137-hbxcT-MRjxM-7sTcN
+14/09/23 01:08:16.154 -> ..\index.js 	 -> jwtHex : 10d7062a2063b0182ca64ee607fe82934d6fa0965e0d56658ec9ceeebee9b242c1e0ecb7af65aa250a8e253c679ea6652101eab6c51bbcabbc972538b180a173
+14/09/23 01:08:16.155 -> ..\index.js 	 -> xor128 : vhYZLb8fn0qHFANrryHsH9aKJfwmuje3wVOfaeeCmh9dlDv4gEqZVZ2nJtyXd7NrcFRXyJNQgEGD7vzbovZFjMri9HRcZ3h4VWIbowuoQHacN2auN5BEL2Dvy7lj7f2o
+14/09/23 01:08:16.153 -> ..\index.js 	 -> mikMDP : "2@8b{a>=P
+14/09/23 01:08:16.154 -> ..\index.js 	 -> jwtB64 : aWINpIeVMCEjeUqjGq/oKobIMCEv5G/8gzDePLDb59blEq7wjGXBueX8x4TlgWMK05xdziT96sqFu5IyuE46bT7V0tQb8s/T46tIrtnooCJIbOGcZNoo1EZFJdoHUWkz
+14/09/23 01:08:16.156 -> ..\index.js 	 -> mikaHash : vhYoqsJcfrr8YOgRVYbkMqHFZYwrJT4Vi3jwfPhst3518uGqMgd3K82hDOTg9bOyvhYpqxOveHgbXtyBxfh0ojyRsSUqjd8CWjKH8eHxUflWSlNHP5CkdXNOa90xM86x
+14/09/23 01:08:52.755 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:08:52.756 -> ..\index.js 	 -> aleaID : 46465-32741-7eJis-8JcYB-uFkqe
+14/09/23 01:08:52.757 -> ..\index.js 	 -> mikMDP : rO}$AT=IM|
+14/09/23 01:08:52.757 -> ..\index.js 	 -> jwtHex : b4632637f92dbf31adca5c8c86415a38691c4dc773fe63441c9f480057b776e5e6e1e32aa0420c90dba5a327b025e82155859d927c0cf1bddd5e87af1718e7c9
+14/09/23 01:08:52.757 -> ..\index.js 	 -> jwtB64 : FJR9vvdTyUTyH9RcqVfmwyH9IsuV2+1zMHFK0mkD92hXtMngV+uJCF5mUKUUD1i/HEClUol0zUaUGnEjS3BjnUfDXzqM1r04LU+4CNUurhyytfibgfDFQ+vOiH4QyZHR
+14/09/23 01:08:52.759 -> ..\index.js 	 -> mikaHash : vhfVu4dQL4t1slCTGbaNQB34PDvGoZZekvg1KLAIjdnGLq7UBqaoZX2XyFlJKrnDvhf3uEQx74MyHFhoXzQuXU8f86Z1qTb48bjBsZhgtrjLjxvTAiUMftxPlNSd9SVo
+14/09/23 01:08:52.758 -> ..\index.js 	 -> xor128 : vhf8uaEyvDImCDP9yF6sabN4uJuapi578M6haI0VZW0sM5k3USw0S3ajpcAsXLeEpqJmnzDFbQKaB1NarGdclWt1qNweYC498PR4YvkmkZYNenyPhSe4CO5gPcMm4igQ
+14/09/23 01:09:34.704 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:09:34.706 -> ..\index.js 	 -> jwtHex : d821f04bf5bb1d5f8a791a256710c486b0c610dfcc20749a3f4689cbb561444228e9a2c01c53bd3b730f6dbdf0c285d5ec896279eafc0b9292595781f28399b7
+14/09/23 01:09:34.706 -> ..\index.js 	 -> mikMDP : ZYIM>^Cc4q
+14/09/23 01:09:34.707 -> ..\index.js 	 -> jwtB64 : h/R3xNG7PZZGYCwOZ0ids//tBYwh1h1kjwZugTe/U6nhXjBF1BiXS8rTiuTrZEJlWx1fObvMPfF7u6zB0RlHO86dkk62kkwjC+cT9OtaOkoYKCrXQci4xZ7pMSxuK5ca
+14/09/23 01:09:34.709 -> ..\index.js 	 -> mikaHash : vhJZ8N0Ieprg559FyHO2JuXgt46iq9sYFnuNhCFmkytELJOx1FHTwi5IWkmVCjmevhJY7zWXLScjKILxAR36dPZAlTODGqWatUYUjdzrd5ROrsGMUJ67lXmdObg7KZL9
+14/09/23 01:09:34.708 -> ..\index.js 	 -> xor128 : vhJDBrdKqCqg1S2hqJ0uwJDoOmAOYJX8JZMN8SEnW7qvPLRmQXuw5aBPbPls2NFnK9dJjfZbnKGRFjjvaefMVfbQcQXWB2Xr2tseUWYTk9xwDAV6UpyXwYWHgsYn0bTv
+14/09/23 01:09:34.705 -> ..\index.js 	 -> aleaID : 46465-74689-U4ZYV-vBQGe-rIc07
+14/09/23 01:09:46.742 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+14/09/23 01:09:46.743 -> ..\index.js 	 -> aleaID : 46465-86728-hQZuN-DOCaC-dzUrd
+14/09/23 01:09:46.743 -> ..\index.js 	 -> mikMDP : m'CJL,|}R[
+14/09/23 01:09:46.744 -> ..\index.js 	 -> jwtB64 : 8voxmQoFAQdy7/0bS8axGHZZmCJEQDP/izma30b4U7E81qoOFOn8rHTYyDO1xwJfKZDClRTQglw5BYmzK+r/Ckyi8l69KDF3diVFcRKUH7cxqbzzS+vrShoVEQzMrdIJ
+14/09/23 01:09:46.743 -> ..\index.js 	 -> jwtHex : 4ff502efb8a0f9344d9ddf5172770181316bfe1948033d7086805c027d24fbc9971636a5ad9f1694d877f093cf9e4c70fa16f95e9cbf8e3ef7ec40573388bcbe
+14/09/23 01:09:46.745 -> ..\index.js 	 -> mikaHash : vhO5MoCtU24nAS28qTk2LJPnrBKpKgatvhO9yj6IiPdPkeGyDGRweBrAigYws3UU
+14/09/23 01:09:46.745 -> ..\index.js 	 -> xor128 : vhOVC1QXWTWEN4RWab9LOhk7XG9sMEU59ACQxQTXYh4IIK1uSM4X7eFkndvSnlNTP5juVxqeaHkoHX2Ar3C1WnI2hh7k8tKsHKztOUlJJlaHE9tW2p2zUsoVBhrDNgnf
