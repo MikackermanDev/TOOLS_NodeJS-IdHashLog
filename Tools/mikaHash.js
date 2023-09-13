@@ -1,4 +1,4 @@
-function mikaXor(longueur, salt) {
+function mikaXor(longueur) {
 	let seed = [BigInt(Date.now()), BigInt(Math.floor(Math.random() * 0xffffffff))];
 
 	function xorshift128plus() {
@@ -26,9 +26,10 @@ function mikaXor(longueur, salt) {
 }
 
 function mikaHash(longueur, salt) {
-	const mixedOutput = mikaXor(longueur, salt) + mikaXor(longueur, salt);
+	const xorshiftOutput = mikaXor(longueur, salt);
+	const xorshiftOutput2 = mikaXor(xorshiftOutput.length, xorshiftOutput);
 
-	return mixedOutput;
+	return xorshiftOutput2;
 }
 
 module.exports = mikaHash;

@@ -78,3 +78,67 @@
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:23:47
+14/09/23 01:11:16.565 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:18:50.660 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:18:54.532 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:18:55.308 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:18:55.953 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:19:17.274 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:19:18.320 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+14/09/23 01:19:18.942 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47

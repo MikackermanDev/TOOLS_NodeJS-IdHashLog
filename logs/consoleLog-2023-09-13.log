@@ -238,3 +238,187 @@
 
 14/09/2023 01:09:46.727 	 -> 14/09/23 01:09:46.745 -> ..\index.js 	 -> mikaHash : vhO5MoCtU24nAS28qTk2LJPnrBKpKgatvhO9yj6IiPdPkeGyDGRweBrAigYws3UU
 
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.565 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.579 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.581 -> ..\index.js 	 -> aleaID : 46466-76563-NnmyC-tFAx6-0x0Xe
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.581 -> ..\index.js 	 -> mikMDP : M~^rf*Mmhc
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.582 -> ..\index.js 	 -> jwtHex : 2d227392cb6ce00d26251c4de5083eea5bf7f46fd946fbaafe8eac29da1c45a189abb01f6a4d1dc9a461cec1388a2aa213ea160ef0bcfc843272853084511d57
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.582 -> ..\index.js 	 -> jwtB64 : Hi0uT3cQqOFnsrm58E0agxlpgWNiX2xcGgxSyGVG+rbJVCE3epMRp4bF9VMB2ByJAr970H5UDEHTqdI5nkiaxD+oMhbYZJCqPRV9dx/8353w0z2MR6p5lYDnc21Hd5O4
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.583 -> ..\index.js 	 -> xor128 : vhjcIsx0DV5vodX4xkm0LkaQOsWT0VTnE4sBpLZu8OjeLmLvezTwOLB8rGxnHbVOlJZg6k8nbY9a5A8Eo2sn4t50DdJqaGREPwJnLZk0q76kXGBizAsqu5Us0rx7nAio
+
+14/09/2023 01:11:16.562 	 -> 14/09/23 01:11:16.584 -> ..\index.js 	 -> mikaHash : vhjMHkzGsGbdwCbkruRCwdmxfotWSjs3
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.660 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.673 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.674 -> ..\index.js 	 -> aleaID : 46471-30658-mI1qM-PsfvJ-uXKw3
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.674 -> ..\index.js 	 -> mikMDP : x1e~2O?>?u
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.675 -> ..\index.js 	 -> jwtHex : 9c25c3c9a1c6cb4536386981c062cbf02af0a1744a5ca10ba2e08c992647447f5fbe028c88d43d7f892ffbcb12ea36915e20bee8a1d960af0d35052d082a21cc
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.675 -> ..\index.js 	 -> jwtB64 : aNxKYrqDjvVc8cyHGTFDFPXKPmBW4z2aO7VLxCgTWt786/ZsT5mx5OeQbm4GKeIOGvabzbk2htqIthQj06UotTEBcrjQji0MtAT0CtzDcV1rlMmV0XGp+AH3aynsQTQu
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.676 -> ..\index.js 	 -> xor128 : vhwKsNHXaa0l7hsxXzMSImj7wOOsTpEL9WovJFDuVCRPsA3XWR308sYrtPpVVG9eMiBZQ0AxvR8FPwdSqSF0RKzV1YvNEQmXhv1jjLx83sDb9t2yEMfGtq6LFHzOLDi4
+
+14/09/2023 01:18:50.658 	 -> 14/09/23 01:18:50.677 -> ..\index.js 	 -> mikaHash : AAA2v7EXugivKFkW7XH3YnUc4DbDtecODNUU9dEoxa2ShBrXduxkrCGixshhkYPi
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.532 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.543 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.544 -> ..\index.js 	 -> aleaID : 46471-34530-4U84Z-LsvZ9-tVxbe
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.545 -> ..\index.js 	 -> mikMDP : kF-!Rq>!o!
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.545 -> ..\index.js 	 -> jwtHex : b287f2b80b2e79475d1f7b6ed5e8331ccc66f3fb56bc99aa9171411a0d858c029be96605d6199a4b915cf22a57486c533f564f348c9c38cb22fabfae1beb3247
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.546 -> ..\index.js 	 -> jwtB64 : s0bl/dCepk7m8BA8GPZdU9l+sVKveaqW7AigVtkXCo8epoybSpxAx1akWqo4h0U4fAfnZwWlyzv1t+k32vcCHlKk/BRieo+1eOIW4VW4N36gi/cxudR94LJCu7blB1yX
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.547 -> ..\index.js 	 -> xor128 : vhzNzum3b29b7NNBhxu57V82BbNPf9K2fMzpoXNbNh2ppubqIXVj4EN5NNTMmywjDtuoSv8TclTPwUvPvXkgxMv3SBfoI1tZn4LMfwU0Vpv50Cngx2u7ozRFil0lsB9e
+
+14/09/2023 01:18:54.529 	 -> 14/09/23 01:18:54.547 -> ..\index.js 	 -> mikaHash : AAA0r2YELO0O59NPDwjZ0tKR4NpqnH6gl0Z93sqj9HyDU8K4z1x8oxanaLBmla7H
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.308 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.321 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.322 -> ..\index.js 	 -> aleaID : 46471-35306-zJi4w-fYsTM-fTTiN
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.322 -> ..\index.js 	 -> mikMDP : 9`){,F9.9}
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.322 -> ..\index.js 	 -> jwtHex : c79bcf7cae5531084b48b906f420ae47191e7d2973d69b51f2213c5ee973613c9f8f8c1dcdeae877ba20cad1839cdc27b8c1ec7827968a92e942189f7c6c429a
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.323 -> ..\index.js 	 -> jwtB64 : BnhBozsDujXvkK93qHg7Pn39WD2+npZaUVaWGvjyHCEhm/mcNCbikD6Z8g4a4jCPqsqoOX87uP7PcLfmRFFKq72Ayi2HN4k4bfmiRvJIHz1BcyOVcMDJi/E9zUxWGV0m
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.323 -> ..\index.js 	 -> xor128 : vhzgItozxyl26ZvVYklSYGa33Hli5jSUbrDAuSXma51Bnqw0veJnYJksBczepVTOq6Z1WoEWQyUpJGcvRomoWab0PYA9rnEHHlORm4YTdLurgOFp3ZzkR1QitZLfyxrY
+
+14/09/2023 01:18:55.306 	 -> 14/09/23 01:18:55.324 -> ..\index.js 	 -> mikaHash : AAA2vYmYQZUjjy7ymZxR58GZgjHDrMm1ivY8YHzRezdnPy4t0zB1QHoBgk8WqIRh
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.953 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.966 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.967 -> ..\index.js 	 -> aleaID : 46471-35951-DA5BW-O7BYB-3tYhJ
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.968 -> ..\index.js 	 -> mikMDP : TlZ[1/8Ur`
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.968 -> ..\index.js 	 -> jwtHex : 815122b887c15031b4cff1293c7c6eeaf0acfd04320ca52bba2012be4deef3421da31286cb96e2a205878eae3b446dfc568b800e46928ebea4889da768dcd428
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.968 -> ..\index.js 	 -> jwtB64 : 7oBPYw7V44rGcSlAW1fPW4mDbzrUG4mZ00QuCPMyrKbf6LcoZLOxSDnr8mqVU195NAeJhkr9On99FceUNs2jhjj+lQEvUEqqVqzThVmpm9PKh+PAXK6kizjSFhX0XEzQ
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.969 -> ..\index.js 	 -> xor128 : vhztBKWxzanYLjoj0i9e0Krfh6suvcVg7v5Wg1pWEupEmRqLfA4ZQaGXNGr7Xm46nXL5ZWNEpNmq6bqJnYhRqfLReo6QFMnnMR70F7T95tIg7kJVaYlwMfsxWk7pE5pl
+
+14/09/2023 01:18:55.950 	 -> 14/09/23 01:18:55.970 -> ..\index.js 	 -> mikaHash : AAAd6qYhUBRywdVNj7nyQ9fX3nK7MOXZPXQeAIYQuqHKhs4BQQ5Xx5V2MbDaU7sH
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.274 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.287 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.288 -> ..\index.js 	 -> aleaID : 46471-57272-y5jA0-7oNZx-iP7Fu
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.289 -> ..\index.js 	 -> mikMDP : dB-Uch.)km
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.289 -> ..\index.js 	 -> jwtHex : 4ac813b32058e6d0b9e83ff77586cefa52daf2afd605702a2932079785f420c60a00fe78260a3265c47e58095fd3f380f4e9cd2480266bc954f22ff888d3fd03
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.290 -> ..\index.js 	 -> jwtB64 : Px7ZnWMmjedfp7mvpPaqQOeMbrRbg3+YNNhtRkd4xaHUBil9vRqRkuTqLtwj2cpPA2Wz8kfFywO8bvckUOHoCCORkPITXhIH/CzmVQsE9x51KTKjpzwTew7iCjZh/6cd
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.291 -> ..\index.js 	 -> xor128 : vh4XR8ODVrBjTWtBFamS3GWD2erZeRl7SH9Wi0NJXxsTOvYXmuYN3Nvq9kYpyau51A8GKppOEa3N6cz9uMlT5OChuwudRX5xbjRn5UwBD1RkBhj5fH5HhpIAZlTFejTO
+
+14/09/2023 01:19:17.272 	 -> 14/09/23 01:19:17.292 -> ..\index.js 	 -> mikaHash : vh4YSUtKOmETr4KbRpu2a2qHyEV74gSTlzcH7z4b8a5Q5JJRr4KNAIzO4FI2n75p
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.320 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.333 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.334 -> ..\index.js 	 -> aleaID : 46471-58318-CTWBI-2vusu-5txMV
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.335 -> ..\index.js 	 -> mikMDP : _[O6F\;6ak
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.335 -> ..\index.js 	 -> jwtHex : 1c8897585459f26ee20f04962abfdf079b6cd495f22aaf96d42565489f74c2de511b9a036eceaf4610aff9fd779f7448348407c8ad116557fc0de728ce5b64f3
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.336 -> ..\index.js 	 -> jwtB64 : jqg6d44uGbSxitelwHN/AUyz/RY8b3kxWeF9H7e9wwDiW1vUElOTg/PKc/CjC1PeLZef4ZDswz45GeFdLkbiiEOPUFwn4ft543w3kKkLPuNI5M30sTmeJCi2zU09lE3c
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.337 -> ..\index.js 	 -> xor128 : vh4efX6qtivPWLLq42ABjW9P3zg3QMUb0U49o47JHtrz5WgDEN27FNbyTl2LiH114BD9dGlHVyDNnWIcJDznqRIlO0tGvcyoKtQakEEFEQX0O3XHpMVwnvZiV4SKnfka
+
+14/09/2023 01:19:18.317 	 -> 14/09/23 01:19:18.338 -> ..\index.js 	 -> mikaHash : vh4ocdRkGUtzWsoA6FDCT3PQq7vZWOdrF6zeYJKxdafmhCCTw5WOow1qzwlGMgQp
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.942 -> ..\index.js 	 -> Error: erreur
+    at Object.<anonymous> (d:\Mikackerman\.Dev\.GitHub\TOOLS_NodeJS-IdHashLog\index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.954 -> ..\index.js 	 -> { propriete1: 'valeur1', propriete2: 'valeur2' }
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.955 -> ..\index.js 	 -> aleaID : 46471-58940-PGUII-HGgnM-ePHuV
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.956 -> ..\index.js 	 -> mikMDP : y?[wJXb1LI
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.957 -> ..\index.js 	 -> jwtHex : 348fe4e2a9b9d6074014b7a4ee8c810035f902ce8043aa8191775903d0a6d9766b13217334ce6b8465227130d4101035128389add1f70452eca4742c632a0b8a
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.957 -> ..\index.js 	 -> jwtB64 : 1y/NNeHUiFHX0Z7ZCQ85CpZ0eSRq/8lEiFR1a24PbwoCvQnUDc1DRVYKlD8cSufMD8L/Yz+Ex0GPlI1B2NrOOyDtj5kyNXUyV8xJFpmyhBYTggQFr0Eherr+mHaPPh7c
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.958 -> ..\index.js 	 -> xor128 : vh532z0B6oUqwdEIpim1QG9DmaSxLLY2KqFSu0NkS5WKrk8mhEMQaQXidELlYJJAI8pUE24esrqolYfRkUQwfC5bOx1SXSQy6I3Cu0eVlxtnUdDq3JFwUgaxIOlXnDJU
+
+14/09/2023 01:19:18.939 	 -> 14/09/23 01:19:18.959 -> ..\index.js 	 -> mikaHash : vh5pnXTyfVBOzSbUJoWDgKn9VYEnBu2wgaYPgWK0X7LK3OdD9us0mohvmQEU0rqj
+

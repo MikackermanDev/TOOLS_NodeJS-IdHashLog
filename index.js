@@ -33,5 +33,5 @@ function logResults() {
 	mikaLog("jwtHex : " + jwtHex(128));
 	mikaLog("jwtB64 : " + jwtB64(128));
 	mikaLog("xor128 : " + mikaXor(128));
-	mikaLog("mikaHash : " + mikaHash(32, 10));
+	mikaLog("mikaHash : " + mikaHash(64, 10));
 }
